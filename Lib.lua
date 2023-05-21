@@ -802,7 +802,7 @@ function OrionLib:MakeWindow(WindowConfig)
 					BackgroundTransparency = 0.7,
 					Parent = ItemParent
 				}), {
-					AddThemeObject(SetProps(MakeElement("Label", Text, 15), {
+					AddThemeObject(SetProps(MakeElement("Label", Text, 100), {
 						Size = UDim2.new(1, -12, 1, 0),
 						Position = UDim2.new(0, 12, 0, 0),
 						Font = Enum.Font.GothamBold,
