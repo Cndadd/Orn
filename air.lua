@@ -1762,8 +1762,5 @@ end
 function OrionLib:Destroy()
 	Orion:Destroy()
 end
-function Tab:Destroy()
-	Tab:Destroy()
-end
 
 return OrionLib
